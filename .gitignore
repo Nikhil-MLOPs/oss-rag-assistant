@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual env
+.venv/
+env/
+venv/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor / IDE
+.vscode/
+.idea/
+
+# Environment variables
+.env
+*.env
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+
+# Pytest cache
+.pytest_cache/
+
+# Jupyter (if we ever use it)
+.ipynb_checkpoints/
+
+# MLflow default folder (we'll create this later)
+mlruns/
+
+# DVC internal cache dirs (meta-files remain tracked)
+.dvc/tmp/
+.dvc/cache/
+
+# Steps related to making Deployable Project
+Notebook-Scratch.ipynb
+
